@@ -1,0 +1,198 @@
+.task-item {
+  border: 1px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  /* background-color: seagreen; */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.task-list {
+  width: 30%;
+  margin: auto; 
+  margin-top: 100px;
+}
+
+.hover:hover {
+  cursor: pointer; 
+}
+
+
+.dealHeader {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.topnav {
+  border-bottom: solid #0428A9 1px;
+}
+
+.nav-container {
+  margin-left: 30px;
+}
+
+.custom-nav-items {
+  font-size: 18px;
+}
+
+.nav-links {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pointer-class {
+  cursor: pointer;
+}
+
+
+.float-right {
+  float: right !important;
+}
+
+.password-icon {
+  font-size: 18px;
+  position: absolute;
+  top: 188px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.verified-icon {
+  font-size: 17px;
+  position: absolute;
+  top: 155px;
+  right: 400px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+
+.form-div {
+  margin: auto;
+  width: 30%;
+  border: 1px solid lightslategray;
+  background-color: #d8c3a5;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+.custom-field {
+  border: solid 1px lightslategrey;
+  /* border-bottom: solid 2px; */
+  box-shadow: none;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.mid-alert {
+  margin: auto;
+  width: 40%;
+}
+
+.custom-nav-items {
+  font-size: 18px;
+}
+
+.nav-links {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blob-headings {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.blob-headings:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.blob-body {
+  width: 50%;
+  height: 280px;
+  border: solid 1px;
+  border-radius: 10px;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.blob-body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+.badge-size {
+  font-size: 13px;
+}
+
+.badge-size:hover {
+  cursor: pointer;
+}
+
+.modal-90w {
+  width: 90%;
+}
+
+/* .csv-download {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  width: 10%;
+}
+
+.csv-download:hover {
+  cursor: pointer;
+}
+
+.hover-span:hover {
+  cursor: pointer;
+} */
+
+ .no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.floating-button {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  outline-style:initial;
+  border-radius: 100px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 1px 1px;
+}
