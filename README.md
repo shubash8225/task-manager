@@ -2,6 +2,9 @@
 
 This repository contains the React frontend for the Task Manager WebApp. This frontend provides a user interface for interacting with the task management system.
 
+## Prerequisites
+You will need to have the latest version of Node.js installed.
+
 ## Setup
 
 1. **Clone the repository:**
