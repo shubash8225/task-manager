@@ -82,6 +82,8 @@ function TaskList({ data, reloadTasks, deleteTask }) {
   return (
     <div>
       <h1>Task List</h1>
+      {data.length !== 0 ? 
+      <>
       {data.map(item => {
         return (
           <TaskItem
@@ -121,6 +123,8 @@ function TaskList({ data, reloadTasks, deleteTask }) {
             </Modal.Footer>
         </Modal>
       )}
+      </>
+      : (<div style={{ color: 'grey' }}><i>Your Task List looks empty....</i></div>)}
     </div>
   )
 }
